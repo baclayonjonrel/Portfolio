@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Jonrel Baclayon Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Jonrel Baclayon</div>
+      <div class="logo" onclick="location.href='./#'">Jonrel Baclayon</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -58,15 +58,21 @@
         <div id="socials-container">
           <img
             src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
+            alt="LinkedIn"
             class="icon"
             onclick="location.href='https://www.linkedin.com/in/jonrelbaclayon/'"
           />
           <img
             src="./assets/github.png"
-            alt="My Github profile"
+            alt="Github"
             class="icon"
-            onclick="location.href='https://github.com/baclayonjonrel/Portfolio'"
+            onclick="location.href='https://github.com/baclayonjonrel/'"
+          />
+          <img
+            src="./assets/facebook.png"
+            alt="Facebook"
+            class="icon"
+            onclick="location.href='https://www.facebook.com/jonrelbaclayon'"
           />
         </div>
       </div>
@@ -374,17 +380,17 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Pokedex</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/baclayonjonrel/Portfolio'"
+                onclick="location.href='https://github.com/baclayonjonrel/'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/baclayonjonrel/Portfolio'"
+                onclick="location.href='https://github.com/baclayonjonrel/'"
               >
                 Live Demo
               </button>
@@ -398,17 +404,17 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Movie App</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/baclayonjonrel/Portfolio'"
+                onclick="location.href='https://github.com/baclayonjonrel/'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/baclayonjonrel/Portfolio'"
+                onclick="location.href='https://github.com/baclayonjonrel/'"
               >
                 Live Demo
               </button>
@@ -422,17 +428,17 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Booking App</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/baclayonjonrel/Portfolio'"
+                onclick="location.href='https://github.com/baclayonjonrel/'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/baclayonjonrel/Portfolio'"
+                onclick="location.href='https://github.com/baclayonjonrel/'"
               >
                 Live Demo
               </button>
@@ -469,11 +475,19 @@
         </div>
         <div class="contact-info-container">
           <img
+            src="./assets/facebook.png"
+            alt="Facebook icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.facebook.com/jonrelbaclayon">Facebook</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
             src="./assets/phone icon.png"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p>+63 926 262 6182</a></p>
+          <p><a href="tel:09262626182" onclick="copyToClipboard('09262626182')">Phone</a></p>
         </div>
       </div>
     </section>
