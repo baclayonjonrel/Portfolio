@@ -83,3 +83,40 @@ function copyToClipboard(text) {
     alert("Copied to clipboard: " + text);
   }
 }
+
+/* VIDEO PLAYER */
+
+function openModal() {
+  var modal = document.getElementById('videoModal');
+  modal.style.display = 'block';
+  var video = document.getElementById('demoVideo');
+  video.play();  // Start playing the video when modal opens
+
+  // Disable background scroll
+  document.body.classList.add('modal-open');
+}
+
+function closeModal() {
+  var modal = document.getElementById('videoModal');
+  modal.style.display = 'none';
+  var video = document.getElementById('demoVideo');
+  video.pause();  // Pause the video when modal closes
+  video.currentTime = 0;  // Reset video to start
+
+  // Enable background scroll
+  document.body.classList.remove('modal-open');
+}
+
+// Close the modal when clicking outside of the modal content
+window.onclick = function(event) {
+  var modal = document.getElementById('videoModal');
+  if (event.target == modal) {
+      modal.style.display = 'none';
+      var video = document.getElementById('demoVideo');
+      video.pause();
+      video.currentTime = 0;
+
+      // Enable background scroll
+      document.body.classList.remove('modal-open');
+  }
+}
