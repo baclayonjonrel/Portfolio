@@ -526,7 +526,7 @@ footer p {
 .modal-content video {
   width: 100%;
   height: auto;
-  max-height: 80vh; /* Optional: limit the max-height to 80% of the viewport height */
+  max-height: 65vh; /* Optional: limit the max-height to 80% of the viewport height */
 }
 
 /* Disable background scroll */
