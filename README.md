@@ -1,21 +1,15 @@
-# <div align="center">Hey 👋, I'm Jonrel!</div>  
+# Jonrel Baclayon
 
-----
+iOS developer in Cebu, Philippines. I build mobile apps with Swift, SwiftUI, UIKit, and Flutter.
 
-## <div align="center"> Connect with me  
+- [Portfolio website](https://jonrelbaclayon.netlify.app/)
+- [GitHub profile](https://github.com/baclayonjonrel)
+- [LinkedIn](https://www.linkedin.com/in/jonrelbaclayon/)
 
-<div align="center">
- <a href="https://github.com/jonrebaclayon" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://www.linkedin.com/in/jonrelbaclayon/" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="https://www.facebook.com/jonrelbaclayon" target="_blank">
-<img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
-</a>
+## Selected Work
 
-</a>  
-</div>
-  
-## Welcome! Glad to see you here
+- [OnDevice KYC Scanner](https://github.com/baclayonjonrel/OnDevice-KYC-Scanner) — on-device document capture and OCR for iOS.
+- [Mini Live Chat](https://github.com/baclayonjonrel/Mini-Live-Chat) — native iOS messaging and video calls backed by Node.js services.
+- [Lumen on Google Play](https://play.google.com/store/apps/details?id=com.abantech.lumen) — Bible reading and listening in Tagalog, Cebuano, and English.
+
+This repository contains the source for my [portfolio website](https://jonrelbaclayon.netlify.app/).
